@@ -6,7 +6,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^4.3.0"
+    "webpack": "^3.10.0"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
@@ -34,7 +34,5 @@
     "url": "https://github.com/GreenRabite/Hong-Brian-Wedding/issues"
   },
   "homepage": "https://github.com/GreenRabite/Hong-Brian-Wedding#readme",
-  "devDependencies": {
-    "webpack-cli": "^2.0.13"
-  }
+  "devDependencies": {}
 }
