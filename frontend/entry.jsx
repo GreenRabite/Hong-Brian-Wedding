@@ -1,2 +1,2 @@
 // Import API calls to backend
-import * as APIUsers from './utils/users_api_utils';
+import * as APIInvites from './utils/invites_api_utils';
