@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wedding</title>
+    <title>HONG & BRIAN</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
   </head>
 
   <body>
     <%= yield %>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <%= javascript_include_tag 'application' %>
+
 </html>
