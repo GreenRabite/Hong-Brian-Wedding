@@ -184,12 +184,12 @@ a:focus {
 
 #loaderInner {
     background:#ffffff url(../img/spinner.gif) center center no-repeat;
-    height: 60px;
+    height: 80px;
     left: 50%;
     margin: -50px 0 0 -50px;
     position: absolute;
     top: 50%;
-    width: 60px;
+    width: 80px;
 }
 
 @keyframes boxSpin{
@@ -389,6 +389,10 @@ hr {
 
 .avatar {
 	margin-bottom: 20px;
+}
+
+.avatar-main {
+	justify-content: center;
 }
 
 .team-social {

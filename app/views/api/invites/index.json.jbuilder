@@ -1,3 +1,5 @@
 @invites.each do |invite|
-  json.extract! invite, :username, :attending, :capacity
+  json.set! invite.id do
+    json.extract! invite, :username, :attending, :capacity
+  end
 end
