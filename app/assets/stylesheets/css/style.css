@@ -452,6 +452,25 @@ hr {
 	margin-bottom: 20px;
 }
 
+.service-box{
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.service-desc{
+  margin-bottom: 20px;
+}
+
+.service-recep{
+  max-height: 850px;
+  max-width: 1349px;
+  overflow: hidden;
+}
+.image-box{
+  overflow: hidden;
+}
+
 
 
 /* ===========================
