@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: {format: :json} do
     resources :invites, only: [:show, :edit, :index, :update]
+    resources :searches, only: [:index]
   end
 end
