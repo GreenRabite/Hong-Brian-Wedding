@@ -448,6 +448,17 @@ hr {
 	margin-bottom: 20px;
 }
 
+/*Forms*/
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
 
 
 /* ===========================

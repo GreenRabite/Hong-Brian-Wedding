@@ -12,6 +12,14 @@ export const fetchInvite = (id) =>(
   })
 );
 
+export const updateInvite = (invite) =>{
+  return $.ajax({
+    method: 'PATCH',
+    url: `api/invites/${invite.id}`,
+    data: {invite}
+  });
+};
+
 export const fetchSearchInvites = ({fname,lname}) =>(
   $.ajax({
     method: 'GET',

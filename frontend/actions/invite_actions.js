@@ -1,7 +1,7 @@
 import * as APIInvites from "./../utils/invites_api_utils";
 
 export const RECEIVE_ALL_INVITES = "RECEIVE_ALL_INVITES";
-export const RECEIVE_INVITES = "RECEIVE_INVITES";
+export const RECEIVE_INVITE = "RECEIVE_INVITE";
 
 export const receiveAllInvites = (invites) => {
   return {
@@ -10,10 +10,10 @@ export const receiveAllInvites = (invites) => {
   };
 };
 
-export const receiveInvites = (invites) => {
+export const receiveInvite = (invite) => {
   return {
-    type: RECEIVE_INVITES,
-    invites
+    type: RECEIVE_INVITE,
+    invite
   };
 };
 
@@ -27,3 +27,13 @@ export const fetchInvites = () => (dispatch) => {
     return dispatch(receiveAllInvites(invites));
   });
 };
+
+export const fetchInvite = (id) => (dispatch) => {
+  return APIInvites.fetchInvite(id).then((invite)=>{
+    return dispatch(receiveInvite(invite));
+  });
+};
+
+export const updateInvite = (invite) => (dispatch) => (
+  APIInvites.updateInvite(invite).then(upInvite=>dispatch(receiveInvite(upInvite)))
+);

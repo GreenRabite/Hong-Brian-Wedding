@@ -49,7 +49,7 @@ class InviteSearchBar extends React.Component{
                    placeholder="Smith"
                    value={this.state.lastName ? this.state.lastName : ""}/>
           </div>
-          <button onClick={this.handleSubmit}>Search</button>
+          <div className="btn" onClick={this.handleSubmit}>Search</div>
         </form>
       </div>
     );

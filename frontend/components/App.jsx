@@ -13,6 +13,11 @@ const App = () => {
       </div>
       <div className="col-lg-6 col-sm-12">
         <Route exact path="/" component={InviteIndexContainer}/>
+        <Route exact path="/intro" component={InviteIndexContainer}/>
+        <Route exact path="/story" component={InviteIndexContainer}/>
+        <Route exact path="/service" component={InviteIndexContainer}/>
+        <Route exact path="/rsvp" component={InviteIndexContainer}/>
+        <Route exact path="/gallery" component={InviteIndexContainer}/>
         <Route exact path="/rsvp/:inviteId" component={InviteFormContainer}/>
       </div>
     </div>
