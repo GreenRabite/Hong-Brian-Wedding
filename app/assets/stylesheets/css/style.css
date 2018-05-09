@@ -470,6 +470,11 @@ hr {
 
 .image-box{
   overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.sum{
+  margin: 0 auto;
 }
 
 .invite-item {
@@ -517,6 +522,7 @@ hr {
   background-color: #552583;
   color: white;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .btn:hover{
