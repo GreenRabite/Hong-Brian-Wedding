@@ -17,6 +17,7 @@ const App = () => {
         <Route exact path="/story" component={InviteIndexContainer}/>
         <Route exact path="/service" component={InviteIndexContainer}/>
         <Route exact path="/rsvp" component={InviteIndexContainer}/>
+        <Route exact path="/registry" component={InviteIndexContainer}/>
         <Route exact path="/gallery" component={InviteIndexContainer}/>
         <Route exact path="/rsvp/:inviteId" component={InviteFormContainer}/>
       </div>

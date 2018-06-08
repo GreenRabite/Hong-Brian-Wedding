@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 class InviteSearchBar extends React.Component{
   constructor(props){
@@ -26,7 +26,7 @@ class InviteSearchBar extends React.Component{
   }
 
   render(){
-    if (!this.props.match.isExact) {
+    if (this.props.location.pathname.includes("/rsvp/")) {
       return(
         <div className="col-lg-6 col-sm-12">
           <Link to="/"><h4>Make another search</h4></Link>
