@@ -998,3 +998,17 @@ Parallax
         border-radius: 0;
     }
 }
+
+/* Hover effects */
+
+.links{
+  color: black;
+}
+
+.links:hover {
+  /*background-color: #552583;*/
+  background-color: #bababa;
+  transition: 0.5s;
+  color: white;
+  transform: scale(1.05);
+}
