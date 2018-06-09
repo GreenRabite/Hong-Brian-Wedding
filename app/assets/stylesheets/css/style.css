@@ -1006,9 +1006,10 @@ Parallax
 }
 
 .links:hover {
-  /*background-color: #552583;*/
-  background-color: #bababa;
+  background-color: #552583;
+  /*background-color: #bababa;*/
   transition: 0.5s;
-  color: white;
+  /*color: white;*/
+  color: #FDB927;
   transform: scale(1.05);
 }
