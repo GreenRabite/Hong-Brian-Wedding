@@ -10,10 +10,11 @@ function preload() {
 //-- usage --//
 preload(
     "/images/bg2.jpg",
-    "/images/bg3.jpg"
+    "/images/bg3.jpg",
+    "/images/bg4.jpg"
 );
 
-const imagesUrl=["/images/bg2.jpg","/images/bg3.jpg"];
+const imagesUrl=["/images/bg2.jpg","/images/bg3.jpg","/images/bg4.jpg"];
 
 let imgCount = 0;
 document.addEventListener('DOMContentLoaded', doSlideshow);
@@ -26,5 +27,5 @@ function doSlideshow(){
   intro.style.width = '100%';
   intro.style.position = 'relative';
   intro.style.transition = '1s';
-  setTimeout(doSlideshow, 5000);
+  setTimeout(doSlideshow, 3000);
 }
