@@ -27,5 +27,6 @@ function doSlideshow(){
   intro.style.width = '100%';
   intro.style.position = 'relative';
   intro.style.transition = '1s';
+  intro.style.height = '100%';
   setTimeout(doSlideshow, 3000);
 }

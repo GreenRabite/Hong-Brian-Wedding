@@ -995,6 +995,10 @@ Parallax
         padding: 0;
     }
 
+    nav {
+      display: none;
+    }
+
     .container.gallery-container {
         border-radius: 0;
     }
