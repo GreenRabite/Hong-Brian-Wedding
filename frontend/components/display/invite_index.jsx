@@ -13,8 +13,11 @@ class InviteIndex extends React.Component{
   render(){
     let InviteIndexItems;
     if (this.props.invites) {
-      const invites = Object.values(this.props.invites);
+      let invites = Object.values(this.props.invites);
       if (invites.length > 0) {
+        if (invites.length > 25) {
+          invites = invites.slice(0,24);
+        }
         InviteIndexItems = invites.map((invite)=>{
           return <InviteIndexItem key = {invite.id} invite={invite} />;
         });
