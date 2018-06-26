@@ -29,8 +29,8 @@ class InviteIndex extends React.Component{
       if (invites.length > 0) {
         if (invites.length > 25 && this.state.width > 500) {
           invites = invites.slice(0,24);
-        }else if (invites.length > 15 && this.state.width < 500) {
-          invites = invites.slice(0,14);
+        }else if (invites.length > 8 && this.state.width < 500) {
+          invites = invites.slice(0,7);
         }
         InviteIndexItems = invites.map((invite)=>{
           return <InviteIndexItem key = {invite.id} invite={invite} />;
