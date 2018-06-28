@@ -9,7 +9,6 @@ class InviteIndex extends React.Component{
   }
 
   componentDidMount(){
-    this.props.fetchInvites();
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
@@ -24,6 +23,7 @@ class InviteIndex extends React.Component{
 
   render(){
     let InviteIndexItems;
+    const noHits = <h4 style={{color:"#28c3ab"}}>Search for your invite in the input fields provided!</h4>;
     if (this.props.invites) {
       let invites = Object.values(this.props.invites);
       if (invites.length > 0) {
@@ -41,7 +41,7 @@ class InviteIndex extends React.Component{
       <div className="col-lg-6 col-sm-12">
         <h3>RSVP List</h3>
         <div className="app-container">
-          {InviteIndexItems}
+          {InviteIndexItems ? InviteIndexItems : noHits}
         </div>
       </div>
     );
