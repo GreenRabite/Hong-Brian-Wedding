@@ -23,9 +23,10 @@ const intro = document.querySelector('.intro');
 
 function doSlideshow(){
   if (imgCount >= images.length) imgCount = 0;
-  intro.style.minWidth = '100vw';
+  intro.style.maxWidth = '100vw';
   intro.style.maxHeight = '100vh';
   intro.style.background = `url(${imagesUrl[imgCount]}) no-repeat top center`;
+  intro.style.backgroundSize = 'cover';
   intro.style.position = 'relative';
   intro.style.transition = '1s';
   imgCount++;
