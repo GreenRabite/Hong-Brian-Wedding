@@ -12,10 +12,9 @@ preload(
     "/images/bg2.jpg",
     "/images/bg3.jpg",
     "/images/bg4.jpg",
-    "/images/bg5.jpg",
 );
 
-const imagesUrl=["/images/bg2.jpg","/images/bg3.jpg","/images/bg4.jpg","/images/bg5.jpg"];
+const imagesUrl=["/images/bg2.jpg","/images/bg3.jpg","/images/bg4.jpg"];
 
 let imgCount = 0;
 document.addEventListener('DOMContentLoaded', doSlideshow);
