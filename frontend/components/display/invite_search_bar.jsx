@@ -6,6 +6,7 @@ class InviteSearchBar extends React.Component{
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleUpdate = this.handleUpdate.bind(this);
+    this.handleEnter = this.handleEnter.bind(this);
     this.state = {
       firstName: "",
       lastName: ""
@@ -25,6 +26,12 @@ class InviteSearchBar extends React.Component{
     };
   }
 
+  handleEnter(e){
+    if (e.key === 'Enter') {
+      this.handleSubmit(e);
+    }
+  }
+
   render(){
     if (this.props.location.pathname.includes("/rsvp/")) {
       return(
@@ -35,7 +42,7 @@ class InviteSearchBar extends React.Component{
     }else {
       return(
         <div className="col-lg-6 col-sm-12">
-          <form>
+          <form onKeyPress={(e)=>this.handleEnter(e)}>
             <div className="form-group rsvp-input">
               <label htmlFor="firstNameInput">First Name</label>
               <input type="text"
