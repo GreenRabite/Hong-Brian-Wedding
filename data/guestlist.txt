@@ -1,4 +1,3 @@
-{ username: "First Name Last Name", plusone: "First Name Last Name", capacity: Attending Ceremony, attending: 0, plus_one_bool: false  },
 { username: "Kwok Chan", plusone: "May Chan", capacity: 2, attending: 0, plus_one_bool: false  },
 { username: "Norman Chan", plusone: "Katty Chan", capacity: 4, attending: 0, plus_one_bool: false  },
 { username: "Alan Chan", plusone: "Ammalinh Chan", capacity: 2, attending: 0, plus_one_bool: false  },

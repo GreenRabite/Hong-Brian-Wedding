@@ -940,6 +940,11 @@ Parallax
 		margin-bottom: 30px;
 	}
 
+  .intro {
+      height: 100%;
+      padding: 0;
+  }
+
 
 }
 
@@ -956,6 +961,11 @@ Parallax
 	.tp-banner-container {
 		padding-top:40px;
 	}
+
+  .intro {
+      height: 100%;
+      padding: 0;
+  }
 
 	.page-scroll a.btn-circle {
 		width: 40px;
