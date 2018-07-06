@@ -10,9 +10,6 @@ class Api::InvitesController < ApplicationController
   end
 
   def update
-    p '--------------------'
-    puts params
-    p '---------------------'
     @invite = Invite.find_by(id: params[:id])
     if @invite
       if @invite.update(invite_params)
@@ -27,6 +24,6 @@ class Api::InvitesController < ApplicationController
 
   private
   def invite_params
-    params.require(:invite).permit(:username, :attending, :capacity)
+    params.require(:invite).permit(:username, :attending, :capacity, :plusone)
   end
 end

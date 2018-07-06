@@ -1,1 +1,1 @@
-json.extract! @invite, :id, :username, :attending, :capacity
+json.extract! @invite, :id, :username, :plusone, :attending, :capacity, :plus_one_bool
