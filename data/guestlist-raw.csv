@@ -1,4 +1,4 @@
-First Name,Last Name,First Name,Last Name,Association,Attending Ceremony,Attending Banquet,Plus one,Mailed Invitation,
+First Name,Last Name,First Name,Last Name,Association,Attending Ceremony,Attending Banquet,Plus one for website,Mailed Invitation,First name plus 1
 Kwok,Chan,May,Chan,Brian's Family,2,,, ,
 Norman,Chan,Katty,Chan,Brian's Family,4,,,,
 Alan,Chan,Ammalinh,Chan,Brian's Family,2,,,,
@@ -10,11 +10,11 @@ Wally,Bastein,Judy,Bastein,Brian's Relatives,3,,,yes,
 Mei,Bow,,,Brian's Relatives,,,,not invited,
 Shun Oi Kwan,Chui,,,Brian's Relatives,1,,,yes,
 Richard,Signore,Nina,Signore,Brian's Relatives,2,,,yes,
-Sean,Signore,,,Brian's Relatives,1,,,,x
-Christine,Signore,Matt,Roberts,Brian's Relatives,2,,,,x
+Sean,Signore,,,Brian's Relatives,1,,,,
+Christine,Signore,Matt,Roberts,Brian's Relatives,2,,,,
 Tom,Chiu,Lucia,Chui,Brian's Relatives,2,,,,
 Hideyo,Satake,Alinna,Satake,Brian's Relatives,5,,,Brian deliver,
-Kathleen,Chiu,Boyfriend,,Brian's Relatives,2,,yes,Yes,
+Kathleen,Chiu,,,Brian's Relatives,2,,yes,Yes,
 Mark,Chiu,Diana,Tao,Brian's Relatives,2,,,Brian deliver,
 Alex,Chiu,Jamie,Woo,Brian's Relatives,2,,,Brian deliver,
 Curtis,Chui,Elene,Chui,Brian's Relatives,4,,,yes,
@@ -40,8 +40,8 @@ Gary,Mark,Betty,Mark,Brian's Relatives,4,,,yes,
 Daniel,Sokol,Karen,Sokol,Brian's Relatives,3,,,yes,
 Joe,Kwong,Kim,Kwong,Brian's Relatives,2,,,yes,
 Tim,Yuen,Nancy,Yuen,Brian's Relatives,,,,not invited,
-David,Kwong,Linda,Kwong,Brian's Relatives,3,,,,x
-Wilson,Kwong,Anne,Kwong,Brian's Relatives,2,,,,x
+David,Kwong,Linda,Kwong,Brian's Relatives,3,,,yes,
+Wilson,Kwong,Anne,Kwong,Brian's Relatives,2,,,yes,
 James,Ng,,,Brian's Relatives,?,,,,
 Lilian,Ng,,,Brian's Relatives,?,,,,
 Chow,Chin,,,Brian's Relatives,1,,,yes,
@@ -53,8 +53,8 @@ Linda,Lee,Elvin,Lee,Brian's Relatives,3,,,,
 Michelle,Lee,Brian,Inouye,Brian's Relatives,3,,,,
 George,Lee,,,Brian's Relatives,1,,,,
 Jimmy,Lee,,,Brian's Relatives,1,,,,
-Desmond,Lee,Carl,,Brian's Relatives,2,,yes,,
-Jennifer,Lee,Juan Carlos,,Brian's Relatives,3,,yes,,
+Desmond,Lee,,,Brian's Relatives,2,,yes,,
+Jennifer,Lee,,,Brian's Relatives,3,,yes,,
 June,Wong,,,Brian's Relatives,?,,,yes,
 George,Wong,,,Brian's Relatives,?,,,,
 Sandy,Wong,Rubin,Woo,Brian's Relatives,2,,,yes,
@@ -66,7 +66,7 @@ Kyle,Higashidani,Donna,Louie,Brian's Friends,2,,,Yes,
 Matt,Tan,Sophia,Tai,Brian's Friends,2,,,Yes,
 Brian,Moon,,,Brian's Friends,1,,,Yes,
 Aaron,Wong,Paige,Weisbrod,Brian's Friends,2,,,Yes,
-Dexter,Wong,,,Brian's Friends,1,,,,
+Dexter,Wong,,,Brian's Friends,1,,,yes,
 Phillip,Yu,Wendy,Yu,Brian's Friends,3,,,Brian to deliver,
 Sangho,Suh,,,Brian's Friends,1,,,Yes,
 Josh,Zheng,,,Brian's Friends,1,,,Yes,
@@ -80,61 +80,61 @@ Christina,Tu,Calvin,Lee,Brian's Friends,2,,,Yes,
 Andrew,Chan,Joanna,Wu,Brian's Friends,2,,,,
 Carrie,Chan,Kenny,Chang,Brian's Friends,2,,,,
 Victor,Chan,Meg,Chan,Brian's Friends,2,,,,
-Bonnie,Chan,Josh,,Brian's Friends,3,,yes,,
-David,Chu,Betty,,Brian's Parents Friends,2,,yes,yes,
-David,Chan,Kimin,,Brian's Parents Friends,2,,yes,yes,
-Sue,Ho,Peter,,Brian's Parents Friends,,,yes,not invited,
-Karen,Kao,Bill,,Brian's Parents Friends,2,,yes,yes,
-Howard,Lee,Lily,,Brian's Parents Friends,,?,,not invited,
-Wai Hon,Lee,Anita,,Brian's Parents Friends,2,,yes,yes,
-Henry,Wong,Susan,,Brian's Parents Friends,2,,yes,yes,
-Bak Ying,Chan,Betty,,Brian's Parents Friends,2,,yes,,
-Bianne,Chan,Eugene,,Brian's Parents Friends,2,,yes,yes,
-Chung,Chan,Kay,,Brian's Parents Friends,2,,yes,,
+Bonnie,Chan,,,Brian's Friends,2,,yes,,"Originally 3, now 2"
+David,Chu,,,Brian's Parents Friends,2,,yes,yes,Betty
+David,Chan,,,Brian's Parents Friends,2,,yes,yes,Kimin
+Sue,Ho,,,Brian's Parents Friends,,,yes,not invited,Peter
+Karen,Kao,,,Brian's Parents Friends,2,,yes,yes,Bill
+Howard,Lee,,,Brian's Parents Friends,,?,,not invited,Lily
+Wai Hon,Lee,,,Brian's Parents Friends,2,,yes,yes,Anita
+Henry,Wong,,,Brian's Parents Friends,2,,yes,yes,Susan
+Bak Ying,Chan,,,Brian's Parents Friends,2,,yes,,Betty
+Bianne,Chan,,,Brian's Parents Friends,2,,yes,yes,Eugene
+Chung,Chan,,,Brian's Parents Friends,2,,yes,,Kay
 Melissa,Chan,,,Brian's Parents Friends,?,?,,not invited,
-Raymond,Chan,wife,,Brian's Parents Friends,2,,yes,,
-Yee K.,Cheung,Kaling,,Brian's Parents Friends,2,,yes,,
-Shek Yin,Chiang,wife,,Brian's Parents Friends,2,,yes,,
+Raymond,Chan,,,Brian's Parents Friends,2,,yes,,wife
+Yee K.,Cheung,,,Brian's Parents Friends,2,,yes,,Kaling
+Shek Yin,Chiang,,,Brian's Parents Friends,2,,yes,,wife
 Vanessa,Chin,,,Brian's Parents Friends,2,,,,
-Paul,Chiu,wife,,Brian's Parents Friends,2,,yes,,
-Milton,Fong,Cynthia,,Brian's Parents Friends,2,,yes,,
-Wai Bun,Lee,wife,,Brian's Parents Friends,?,,,not invited,
-Edmond,Louie,Sophie,,Brian's Parents Friends,2,,yes,,
+Paul,Chiu,,,Brian's Parents Friends,2,,yes,,wife
+Milton,Fong,,,Brian's Parents Friends,2,,yes,,Cynthia
+Wai Bun,Lee,,,Brian's Parents Friends,?,,,not invited,wife
+Edmond,Louie,,,Brian's Parents Friends,2,,yes,,Sophie
 Vincent,Moy,LingYu,Chiu,Brian's Parents Friends,2,,yes,,
-William,Ong,Pinky,,Brian's Parents Friends,,,,not invited,
+William,Ong,,,Brian's Parents Friends,,,,not invited,Pinky
 Sui Kwong,Sung,,,Brian's Parents Friends,1,,No,,
-Andy,Wong,wife,,Brian's Parents Friends,2,,yes,,
-Roy,Wong,Joan,,Brian's Parents Friends,?,,,not invited,
-Anthony,Chan,Mabel,,Brian's Parents Friends,?,,,not invited,
-Kan,Chan,Pamela,,Brian's Parents Friends,2,,yes,yes,
-Tom,Chin,,,Brian's Parents Friends,1,,no,yes,
-Lubin,Gee,Ester,,Brian's Parents Friends,2,,yes,yes,
-Charles,Dong,Monica,,Brian's Parents Friends,2,,yes,yes,
+Andy,Wong,,,Brian's Parents Friends,2,,yes,,wife
+Roy,Wong,,,Brian's Parents Friends,?,,,not invited,Joan
+Anthony,Chan,,,Brian's Parents Friends,?,,,not invited,Mabel
+Kan,Chan,,,Brian's Parents Friends,2,,yes,yes,Pamela
+Tom,Chin,,,Brian's Parents Friends,1,,,yes,
+Lubin,Gee,,,Brian's Parents Friends,2,,yes,yes,Ester
+Charles,Dong,,,Brian's Parents Friends,2,,yes,yes,Monica
 Betsy,Eng,,,Brian's Parents Friends,?,,,not invited,
-May,Eng,,,Brian's Parents Friends,1,,No,,
-Frank,Fong,May,,Brian's Parents Friends,2,,yes,,
-David,Huey,Anna,,Brian's Parents Friends,2,,yes,yes,
-Miu Ying,Tsang,,,Brian's Parents Friends,1,,no,,
-Tony,Kwan,wife,,Brian's Parents Friends,2,,yes,yes,
-Steve,Shiflett,Janet,,Brian's Parents Friends,?,,,not invited,
-Eugene,Lau,Elaine,,Brian's Parents Friends,,,yes,not invited,
-Peter,Lau,Christine,,Brian's Parents Friends,2,,yes,,
-Gary,Leo,Monica,,Brian's Parents Friends,2,,yes,,
-Becky,Shan,,,Brian's Parents Friends,?                              1,,no,,
-David,Tsui,Suzanne,,Brian's Parents Friends,?,,,not invited,
-Steve,Wong,Leslie,,Brian's Parents Friends,2,,yes,,
+May,Eng,,,Brian's Parents Friends,1,,,,
+Frank,Fong,,,Brian's Parents Friends,2,,yes,,May
+David,Huey,,,Brian's Parents Friends,2,,yes,yes,Anna
+Miu Ying,Tsang,,,Brian's Parents Friends,1,,,,
+Tony,Kwan,,,Brian's Parents Friends,2,,yes,yes,wife
+Steve,Shiflett,,,Brian's Parents Friends,?,,,not invited,Janet
+Eugene,Lau,,,Brian's Parents Friends,,,yes,not invited,Elaine
+Peter,Lau,,,Brian's Parents Friends,2,,yes,,Christine
+Gary,Leo,,,Brian's Parents Friends,2,,yes,,Monica
+Becky,Shan,,,Brian's Parents Friends,1,,,,
+David,Tsui,,,Brian's Parents Friends,?,,,not invited,Suzanne
+Steve,Wong,,,Brian's Parents Friends,2,,yes,,Leslie
 Cheryl,Yee,,,Brian's Parents Friends,?,,,,
-Alfonso,Chang,Susan,,Brian's Parents Friends,2,,yes,yes,
-Ron,Cheung,wife,,Brian's Parents Friends,,,yes,not invited,
-Edmond,Chew,,,Brian's Parents Friends,,,no,not invited,
-Curtis,Ching,Yvonne,,Brian's Parents Friends,2,,,yes,
-Steve,Choong,Rita,,Brian's Parents Friends,1,,yes,yes,
-Shuen,Choy,wife,,Brian's Parents Friends,2,,yes,,
-Edwin,Chu,,,Brian's Parents Friends,1,,no,,
-Howard,Hong,Helen,,Brian's Parents Friends,2,,yes,yes,
+Alfonso,Chang,,,Brian's Parents Friends,2,,yes,yes,Susan
+Ron,Cheung,,,Brian's Parents Friends,,,yes,not invited,wife
+Edmond,Chew,,,Brian's Parents Friends,,,,not invited,
+Curtis,Ching,,,Brian's Parents Friends,2,,,yes,Yvonne
+Steve,Choong,,,Brian's Parents Friends,1,,yes,yes,Rita
+Shuen,Choy,,,Brian's Parents Friends,2,,yes,yes,wife
+Edwin,Chu,,,Brian's Parents Friends,1,,no,yes,
+Howard,Hong,,,Brian's Parents Friends,2,,yes,yes,Helen
 Philip,Hung,,,Brian's Parents Friends,1,,no,yes,
-Lawrence,Wong,Helen,,Brian's Parents Friends,2,,yes,,
-Paul,Yan,Lucia,,Brian's Parents Friends,2,,yes,,
+Lawrence,Wong,,,Brian's Parents Friends,2,,yes,yes,Helen
+Paul,Yan,,,Brian's Parents Friends,2,,yes,yes,Lucia
 David,Zhao,Cindy,Liu,Brian's Parents Friends,?,,,,
 JImmy,Nguyen,Tina,Nguyen,Brian's Parents Friends,2,,,,
 Do,Nguyen,,,Hong's relatives,1,,,,
@@ -147,29 +147,30 @@ Canh,Truong,Thu,Truong,Hong's relatives,3,,,,
 Hong's Mom's Friend,,,,Hong's relatives,1,,,,
 Auntie #9,,,,Hong's relatives,1,,,,
 Uncle #1,,,,Hong's relatives,1,,,,
-Kari,McDonough,,,Hong's Friends,1,,no,yes,
-Sara,Bradbury,Nick,,Hong's Friends,2,,yes,yes,
+Kari,McDonough,,,Hong's Friends,1,,,yes,
+Sara,Bradbury,,,Hong's Friends,2,,yes,yes,
 Diana,Leal,Miguel,,Hong's Friends,2,,yes,yes,
 Morgan,Bare,Jameson,Bare,Hong's Friends,2,,,yes,
 Carolyn,Vasquez,Mike,Vasquez,Hong's Friends,2,,,yes,
-Elizabeth,Thompson,Steve,Thompson,Hong's Friends,?,,,yes,
-LaSeyl,Paynes,,,Hong's Friends,1,,no,yes,
-Miranda,Janusch,Joe,Janusch,Hong's Friends,?,,,yes,
-Nadia,Sureda,Martin,,Hong's Friends,2,,yes,yes,
-Linda,Galambos,Cesar,,Hong's Friends,2,,yes,yes,
+Elizabeth,Thompson,Steve,Thompson,Hong's Friends,2,,,yes,"Was ?, now 2"
+LaSeyl,Paynes,,,Hong's Friends,1,,,yes,"Was ?, now 2"
+Miranda,Janusch,Joe,Janusch,Hong's Friends,2,,,yes,
+Nadia,Sureda,,,Hong's Friends,2,,yes,yes,
+Linda,Galambos,,,Hong's Friends,2,,yes,yes,
 Stacy,Lau,Sheldon,Lau,Hong's Friends,2,,yes,yes,
-Ben,Munoz,Miriam,,Hong's Friends,2,,yes,yes,
-Cathy,Shaughnessy,Randy,,Hong's Friends,2,,yes,yes,
-Ashley,Duong,Winston,,Hong's Friends,2,,yes,yes,
-Denh,Yin,Lori,,Hong's Friends,2,,yes,yes,
+Ben,Munoz,Miriam,Munoz,Hong's Friends,2,,yes,yes,
+Cathy,Shaughnessy,,,Hong's Friends,2,,yes,yes,
+Ashley,Duong,,,Hong's Friends,2,,yes,yes,
+Denh,Yin,,,Hong's Friends,2,,yes,yes,
 Mari,Zepeda,,,Hong's Friends,2,,yes,yes,
-Kevin,Lee,Bevelyn,,Hong's Friends,2,,yes,yes,
-Juan,Gonzalez,Linda,,Hong's Friends,2,,yes,yes,
+Kevin,Lee,,,Hong's Friends,2,,yes,yes,
+Juan,Gonzalez,,,Hong's Friends,2,,yes,yes,
 Lisa,Nguyen,,,Hong's Friends,2,,yes,,
-Lisa,Yee,,,Hong's Friends,?,,yes,yes,
-Marisol,Madrigal,,,Hong's Friends,?,,yes,yes,
-Michelle,Croom,Milly,,Hong's Friends,2,,yes,,
+Lisa,Yee,,,Hong's Friends,2,,yes,yes,"Was ?, now 2"
+Marisol,Madrigal,,,Hong's Friends,2,,yes,yes,"Was ?, now 2"
+Michelle,Croom,,,Hong's Friends,2,,yes,yes,
 Chad,Workswright,,,Brian's Friends,1,,,,Recent Addition not on website
 Domenico ,Milano,,,Brian's Friends,1,,,,Recent Addition not on website
-Tammie ,Nguyen,Chris,,Brian's Friends,2,,,,Recent Addition not on website
-Vernon ,Lee,,,,,,,,
+Tammie ,Nguyen,,,Brian's Friends,2,,yes,,Recent Addition not on website
+Vernon ,Lee,,,Brian's Friends,1,,,,
+Tuan ,Pham,Cherry,Pham,Brian's Friends,2,,,,
