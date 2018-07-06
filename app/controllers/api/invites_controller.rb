@@ -23,7 +23,7 @@ class Api::InvitesController < ApplicationController
   end
 
   private
-  def invite_pwarams
+  def invite_params
     params.require(:invite).permit(:username, :attending, :capacity, :plusone)
   end
 end
