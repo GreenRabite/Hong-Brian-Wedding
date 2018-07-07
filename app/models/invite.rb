@@ -16,4 +16,19 @@ class Invite < ApplicationRecord
     end
     sum
   end
+
+  def self.guest_list
+    result = []
+    @invites = Invite.where('attending > 0')
+    if @invites
+      @invites.each do |invite|
+        if invite.plusone && invite.attending >= 2
+          result << "#{invite.username} / #{invite.plusone}: #{invite.attending}"
+        else
+          result << "#{invite.username} : #{invite.attending}"
+        end
+      end
+    end
+    result
+  end
 end
