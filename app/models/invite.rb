@@ -42,4 +42,8 @@ class Invite < ApplicationRecord
     end
     result
   end
+
+  def self.recent_updates(num)
+    Invite.all.order(updated_at: :desc).limit(num)
+  end
 end
