@@ -31,4 +31,15 @@ class Invite < ApplicationRecord
     end
     result
   end
+
+  def self.no_response
+    result = []
+    @invites = Invite.where('attending = 0')
+    if @invites
+      @invites.each do |invite|
+        result << invite.username
+      end
+    end
+    result
+  end
 end
