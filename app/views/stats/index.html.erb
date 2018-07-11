@@ -1,0 +1,50 @@
+<h1 style="text-align:center;">Wedding Stats </h1>
+
+<div class="stats-table">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Query</th>
+        <th scope="col">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Attending Guests</td>
+        <td><%= @total_guests %></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Total Guests Invites</td>
+        <td><%= @invites_sent %></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>No Responses</td>
+        <td><%= @no_responses %></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Recent Updates</td>
+        <td>
+          <% @recent_updates.each do |update| %>
+            <%= "#{time_ago_in_words(update.updated_at)} ago - #{update.username} / #{update.plusone ? update.plusone : ""} : #{update.attending}"%> </br>
+          <% end %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 style="text-align:center;"> Guest Lists </h2>
+<div class="guest-list">
+  <ul class="list-group">
+    <% @guest_list.each do |guest| %>
+    <li class="list-group-item">
+      <%= guest %>
+    </li>
+    <% end %>
+  </ul>
+</div>

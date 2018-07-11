@@ -1060,3 +1060,26 @@ Parallax
   /*color: #FDB927;*/
   transform: scale(1.05);
 }
+
+.stats-table{
+  display: flex;
+  justify-content: center;
+}
+
+.guest-list{
+  display: flex;
+  height: 400px;
+  justify-content: flex-start;
+  margin-left: 75px;
+}
+
+.guest-list ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.table{
+
+  width: 80%;
+}
