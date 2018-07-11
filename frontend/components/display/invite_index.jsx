@@ -23,7 +23,7 @@ class InviteIndex extends React.Component{
 
   render(){
     let InviteIndexItems;
-    const noHits = <h4 style={{color:"#28c3ab"}}>Search for your invite in the input fields provided!</h4>;
+    const noHits = <h4 style={{color:"#552583"}}>Search for your invite in the input fields provided!</h4>;
     if (this.props.invites) {
       let invites = Object.values(this.props.invites);
       if (invites.length > 0) {
